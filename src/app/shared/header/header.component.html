@@ -1,0 +1,25 @@
+<header class="app-header">
+  <div class="brand">
+    <div class="brand-logo">FIT</div>
+    <div class="brand-text">
+      <span class="brand-name">FITCONTROL</span>
+      <span class="brand-subtitle">Gestão Fitness & Saúde</span>
+    </div>
+  </div>
+
+  <nav class="app-nav">
+    <a
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      Início
+    </a>
+
+    <a routerLink="/login" routerLinkActive="active"> Login </a>
+
+    <button class="btn-primary" routerLink="/login">
+      Acessar sistema
+    </button>
+  </nav>
+</header>

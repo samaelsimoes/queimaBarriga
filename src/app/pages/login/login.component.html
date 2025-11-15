@@ -1,0 +1,42 @@
+<div class="login-wrapper">
+  <div class="login-card">
+    <h1>
+      Entrar no <span>FitControl</span>
+    </h1>
+
+    <p class="subtitle">
+      Acesse sua conta para acompanhar treinos, hábitos e evolução.
+    </p>
+
+    <form (ngSubmit)="onSubmit()" novalidate>
+      <div class="field">
+        <label for="email">E-mail</label>
+        <input
+          id="email"
+          type="email"
+          [(ngModel)]="email"
+          name="email"
+          required
+        />
+      </div>
+
+      <div class="field">
+        <label for="password">Senha</label>
+        <input
+          id="password"
+          type="password"
+          [(ngModel)]="password"
+          name="password"
+          required
+        />
+      </div>
+
+      <button type="submit" class="btn-primary">Entrar</button>
+    </form>
+
+    <p class="hint">
+      Ainda não tem conta?
+      <a href="#">Criar conta</a>
+    </p>
+  </div>
+</div>

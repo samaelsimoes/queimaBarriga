@@ -1,0 +1,9 @@
+<div class="shell" [class.shell--dashboard]="isDashboardPage">
+  <app-header *ngIf="!isDashboardPage"></app-header>
+
+  <main class="shell-main">
+    <router-outlet></router-outlet>
+  </main>
+
+  <app-footer *ngIf="!isDashboardPage"></app-footer>
+</div>

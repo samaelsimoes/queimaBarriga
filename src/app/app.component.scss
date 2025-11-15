@@ -1,0 +1,21 @@
+.shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.shell-main {
+  flex: 1;
+  padding: 3rem 3rem 2rem;
+}
+
+/* Dashboard futuramente pode ter outro layout */
+.shell--dashboard .shell-main {
+  padding: 0; // exemplo: dashboard ocupa a tela inteira
+}
+
+@media (max-width: 768px) {
+  .shell-main {
+    padding: 2rem 1.5rem 1.5rem;
+  }
+}
