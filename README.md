@@ -30,7 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Estrutura do projeto
 
-src/app/
+"src/app/
  ├── core/                 ← guard, interceptors (depois)
  ├── shared/               ← módulos compartilhados (PrimeNG)
  ├── pages/                ← páginas PÚBLICAS (não autenticadas)
@@ -41,4 +41,4 @@ src/app/
  │     │     └── main/     ← tela principal do dashboard
  │     └── dashboard.module.ts
  ├── app-routing.module.ts
- └── app.module.ts
+ └── app.module.ts"
